@@ -10,7 +10,7 @@ MAGPool is implemented with Pytorch and Pytorch Geometric
 
     Pytorch >= 2.0.1+cu118
     Pytorch Geometric >= 2.3.1
-Install the reqirements:
+Install the requirements:
 
     pip install -r requirements.txt
     
@@ -18,11 +18,16 @@ Install the reqirements:
 
     python3 train.py
 
-NOTE: there are various arguments which you can modify, please see `train.py` for further details.
+In the case of using CUDA:
+```
+CUDA_LAUNCH_BLOCKING=1 python3 main.py
+```
+
+NOTE: there are various arguments that you can modify, please see `train.py` for further details.
 
 ## Cite
 
-If you make advantage of the MAGPool, please cite the following in your manuscript:
+If you take advantage of the MAGPool, please cite the following in your manuscript:
 
      @INPROCEEDINGS{10454077,
       author={Haddadian, Parsa and Booryaee, Roya and Abedian, Rooholah and Moeini, Ali},
