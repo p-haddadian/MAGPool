@@ -1,5 +1,7 @@
 ﻿# MAGPool: Multi-hop Attention-based Graph Pooling
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/multi-hop-attention-based-graph-pooling-a/graph-classification-on-frankenstein)](https://paperswithcode.com/sota/graph-classification-on-frankenstein?p=multi-hop-attention-based-graph-pooling-a)
+
 ## Overview
 This directory contains the code required to execute the MAGPool algorithm. MAGPool is a hierarchical graph pooling algorithm that utilizes Personalized PageRank and an Attention mechanism. This combination is designed to integrate multi-hop connections existing within the graph into the processes of message passing and information aggregation.
 
